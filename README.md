@@ -16,8 +16,8 @@ This framework is basic implementation of Protractor using Cucumber Framework fo
 Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
 Cucumber is a testing tool that supports Behavior Driven Development (BDD) framework. It defines application behavior using simple English text, defined by a language called Gherkin.
-Cucumber can be used to automate tests which are easily read and understood.
-It acts as a bridge between the business and technical language. We can accomplish this by creating a test case in plain English text. These test cases/test scripts are defined in feature files. These features files act as executable specifications.
+
+Cucumber can be used to automate tests which are easily read and understood. It acts as a bridge between the business and technical language. We can accomplish this by creating a test case in plain English text. These test cases/test scripts are defined in feature files. These features files act as executable specifications.
 
 ---
 
