@@ -11,6 +11,26 @@ This framework is basic implementation of Protractor using Cucumber Framework fo
 
 ---
 
+## OVERVIEW
+
+Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
+
+Cucumber is a testing tool that supports Behavior Driven Development (BDD) framework. It defines application behavior using simple English text, defined by a language called Gherkin.
+Cucumber can be used to automate tests which are easily read and understood.
+It acts as a bridge between the business and technical language. We can accomplish this by creating a test case in plain English text. These test cases/test scripts are defined in feature files. These features files act as executable specifications.
+
+---
+
+## PREREQUISITES
+
+### Node.js
+
+Protractor is a Node.js program. To run Protractor, you will need to have Node.js installed. Check the version of node you have by running node --version. It should be greater than v0.10.0.
+
+Node.js comes with the Protractor npm package, which you can use to install Protractor.
+
+---
+
 ## EXTENSIONS FOR VS CODE
 
 1. Cucumber(Gherkin) plugin
@@ -19,6 +39,8 @@ This framework is basic implementation of Protractor using Cucumber Framework fo
 4. Beautify
 5. Code runner
 6. Protractor snippets
+
+---
 
 ## IMPLEMENTATION STEPS
 
