@@ -1,0 +1,33 @@
+{
+  "name": "Protractor_via_Cucumber_Framework",
+  "version": "1.0.0",
+  "description": "This framework is basic implementation of Protractor using Cucumber Framework for Automation/Unit testing for Angular or non Angular applications using VS Code",
+  "main": "conf.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-pretty": "^6.0.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^7.0.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
+    "protractor-cucumber-framework": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "protractor conf.js",
+    "update": "webdriver-manager update"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kprabhat905/Protractor-via-Cucumber-Framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kprabhat905/Protractor-via-Cucumber-Framework/issues"
+  },
+  "homepage": "https://github.com/kprabhat905/Protractor-via-Cucumber-Framework#readme"
+}
