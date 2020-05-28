@@ -35,17 +35,12 @@ This framework is basic implementation of Protractor using Cucumber Framework fo
 21. Install cucuumber. Run this command: "npm install cucumber"
 23. Install protractor cucumber framework. Run this command: "npm install --save-dev protractor-cucumber-framework"
 24. Install other cucumber options as well: 
-a. npm install --save cucumber-pretty
-b. npm install cucumber-html-reporter --save-dev
-c. npm install protractor-cucumber-steps --save-dev
+    1. npm install --save cucumber-pretty
+    2. npm install cucumber-html-reporter --save-dev
+    3. npm install protractor-cucumber-steps --save-dev
 25. Install chai assertions. Run this command: "npm install chai chai-as-promised"
 26. Install Protractor HTML reporter. Run this command: "npm install protractor-beautiful-reporter --save-dev"
-27. Go feature file test.feature and write a testcase:
-         Feature. Demo Feature
-            Scenario. Add two numbers
-                Given I open calculator application
-                When I add two numbers 2 and 3
-                Then result should be correct
+27. Go feature file test.feature and write a testcase
 28. Run this command: "npm test"
 29. You can see the specifications are undefined. You can copy Given, When, Then part and write in your specifications file.
 30. Go to your specifications file spec.js and write Given, When, Then methods
